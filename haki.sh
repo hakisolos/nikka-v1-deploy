@@ -1,1 +1,1 @@
-node server.js & npm start
+node haki.js & npm start
