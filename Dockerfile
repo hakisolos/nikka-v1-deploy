@@ -16,10 +16,10 @@ RUN chmod -R 777 /home/node/blue/
 RUN yarn install && yarn add http
 
 
-COPY server.js .
+COPY haki.js .
 
 
-COPY start.sh .
+COPY haki.sh .
 
 
-CMD ["bash","start.sh" ]
+CMD ["bash","haki.sh" ]
